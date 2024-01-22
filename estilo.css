@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    margin-right: 10px;
+}
+.container-renzo{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.btn{
+   top: 20px;
+   margin-left: 20px;
+   border-radius: 50px;
+   opacity: 0.5;
+   cursor: pointer;
+   transition: opacity 0.3s ease-in-out;
+}
+
+.slider {
+    width: 95%;
+    margin: Auto;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+}
+.slider li{
+    width: 25%;
+    list-style: none;
+}
+.slider img{
+width: 100%;
+height: auto;
+}
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -200%;}
+    100%{margin-left: -200%;}
+
+}
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+}
+header {
+    color: goldenrod;
+    padding: 10px;
+    display: contents;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}   
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+nav li {
+    margin-right: 20px;
+}
+nav a {
+    text-decoration: none;
+    color:aquamarine;
+    margin: 0%;
+    padding: 0%;
+    display: list-item;
+}
+/* Estilos de la sección de inicio */
+.hero {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: black;
+}
+.cta-button {
+    background-color: #333;
+    color:blanchedalmond;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+}
+/* Estilos del menú */
+#menu {
+    background-color: blanchedalmond;
+    padding: 20px;
+    margin: 0%;
+    text-align: center;
+
+}
+.menu-item {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+.price {
+    font-weight: bold;
+    color: #333;
+}
+/* Estilos de la sección de ubicación */
+#ubicacion {
+    text-align: center;
+    padding: 20px;
+}
+#mapa{
+    margin: 0 auto;
+    background-color: gray;
+    border-radius: 5%;
+    display: flex;
+}
+/* Estilos de la sección de la promocion */
+#promocion{
+    text-align: center;
+    padding: 20px;
+    margin: PX;
+    background-color: aqua;
+}
+/* Estilos del formulario de contacto */
+#contacto {
+    text-align: center;
+    padding: 20px;
+}
+#contacto img{
+    text-align: center;
+    width: 10px;
+    margin: 0px;
+    
+}
+/* Estilos del pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #d31717;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#redes img{
+    width: 50px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
